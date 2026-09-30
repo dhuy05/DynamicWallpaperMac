@@ -56,6 +56,16 @@ public struct MainWindowView: View {
                 Text("\(NSScreen.screens.count) màn hình hoạt động")
                     .font(.caption2)
                     .foregroundColor(.secondary)
+                
+                Spacer().frame(height: 16)
+                
+                // Signature
+                Text("Crafted by Dhuy")
+                    .font(.custom("SignPainter", size: 24))
+                    .foregroundColor(.accentColor)
+                    .opacity(0.8)
+                    .frame(maxWidth: .infinity, alignment: .center)
+                    .padding(.bottom, 8)
             }
             .padding(12)
             
