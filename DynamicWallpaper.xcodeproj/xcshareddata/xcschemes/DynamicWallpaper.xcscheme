@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D8F9499E22454149B819B70C"
+               BlueprintIdentifier = "3828BB9A29B343F68E7F9803"
                BuildableName = "DynamicWallpaper.app"
                BlueprintName = "DynamicWallpaper"
                ReferencedContainer = "container:DynamicWallpaper.xcodeproj">
@@ -44,7 +44,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8F9499E22454149B819B70C"
+            BlueprintIdentifier = "3828BB9A29B343F68E7F9803"
             BuildableName = "DynamicWallpaper.app"
             BlueprintName = "DynamicWallpaper"
             ReferencedContainer = "container:DynamicWallpaper.xcodeproj">
@@ -61,7 +61,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8F9499E22454149B819B70C"
+            BlueprintIdentifier = "3828BB9A29B343F68E7F9803"
             BuildableName = "DynamicWallpaper.app"
             BlueprintName = "DynamicWallpaper"
             ReferencedContainer = "container:DynamicWallpaper.xcodeproj">

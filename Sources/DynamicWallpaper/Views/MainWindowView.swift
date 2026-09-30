@@ -16,6 +16,7 @@ public struct MainWindowView: View {
         case gallery = "Thư viện"
         case displays = "Màn hình"
         case preferences = "Cài đặt"
+        case about = "Giới thiệu"
         
         var id: String { rawValue }
         var icon: String {
@@ -23,6 +24,7 @@ public struct MainWindowView: View {
             case .gallery: return "photo.on.rectangle.angled"
             case .displays: return "display.2"
             case .preferences: return "gearshape"
+            case .about: return "info.circle"
             }
         }
     }
@@ -79,6 +81,8 @@ public struct MainWindowView: View {
                     DisplayManagerView()
                 case .preferences:
                     PreferencesView()
+                case .about:
+                    AboutView()
                 }
                 
                 // Drop Overlay
