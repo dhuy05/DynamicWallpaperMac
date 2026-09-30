@@ -61,9 +61,10 @@ public struct MainWindowView: View {
                 
                 // Signature
                 Text("Crafted by Dhuy")
-                    .font(.custom("SignPainter", size: 24))
-                    .foregroundColor(.accentColor)
-                    .opacity(0.8)
+                    .font(.custom("SignPainter", size: 28))
+                    .foregroundColor(Color(red: 1.0, green: 0.1, blue: 0.8)) // Neon Pink
+                    .shadow(color: Color(red: 1.0, green: 0.1, blue: 0.8).opacity(0.8), radius: 4, x: 0, y: 0)
+                    .opacity(0.9)
                     .frame(maxWidth: .infinity, alignment: .center)
                     .padding(.bottom, 8)
             }

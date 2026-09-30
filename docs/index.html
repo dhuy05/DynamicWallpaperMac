@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dynamic Wallpaper Studio - Ứng dụng cài đặt hình nền động tuyệt đẹp, mượt mà và tối ưu dành riêng cho macOS.">
+    <title>Dynamic Wallpaper Studio | Hình nền động cho macOS</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Animated Gradients -->
+    <div class="bg-gradient bg-gradient-1"></div>
+    <div class="bg-gradient bg-gradient-2"></div>
+    <div class="bg-gradient bg-gradient-3"></div>
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <img src="assets/app_icon.png" alt="Dynamic Wallpaper Icon" class="nav-icon">
+                <span class="nav-title">DynamicWallpaper</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Tính năng</a>
+                <a href="#showcase">Khám phá</a>
+                <a href="#download" class="btn btn-sm btn-primary">Tải xuống</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <div class="badge">Dành riêng cho macOS 13.0+</div>
+                <h1 class="hero-title">Đánh thức không gian làm việc của bạn.</h1>
+                <p class="hero-subtitle">
+                    Dynamic Wallpaper Studio mang đến trải nghiệm hình nền động mượt mà nhất. 
+                    Không giới hạn. Không ngốn pin. Không chớp nháy đen.
+                </p>
+                <div class="hero-actions">
+                    <a href="#download" class="btn btn-lg btn-primary">
+                        <i class="fa-brands fa-apple"></i> Tải về miễn phí
+                    </a>
+                    <a href="https://github.com/dhuy05/DynamicWallpaperMac" target="_blank" class="btn btn-lg btn-secondary">
+                        <i class="fa-brands fa-github"></i> Xem mã nguồn
+                    </a>
+                </div>
+                <div class="hero-meta">
+                    Phiên bản 1.0 &bull; Hỗ trợ Apple Silicon (M1/M2/M3) & Intel
+                </div>
+            </div>
+            
+            <!-- App Mockup / Visual -->
+            <div class="hero-visual">
+                <div class="mac-mockup">
+                    <div class="mac-top-bar">
+                        <span class="dot close"></span>
+                        <span class="dot minimize"></span>
+                        <span class="dot expand"></span>
+                    </div>
+                    <div class="mac-screen">
+                        <div class="app-ui">
+                            <div class="sidebar">
+                                <ul>
+                                    <li class="active"><i class="fa-solid fa-photo-video"></i> Thư viện</li>
+                                    <li><i class="fa-solid fa-display"></i> Màn hình</li>
+                                    <li><i class="fa-solid fa-gear"></i> Cài đặt</li>
+                                </ul>
+                            </div>
+                            <div class="main-content">
+                                <h2>Dynamic Wallpaper Studio</h2>
+                                <div class="grid-previews">
+                                    <div class="preview-card active">
+                                        <div class="thumb aurora"></div>
+                                        <span>Aurora Borealis</span>
+                                    </div>
+                                    <div class="preview-card">
+                                        <div class="thumb cyber"></div>
+                                        <span>Cyber Sunset</span>
+                                    </div>
+                                    <div class="preview-card">
+                                        <div class="thumb cosmic"></div>
+                                        <span>Cosmic Gradient</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tuyệt tác công nghệ dành cho Mac</h2>
+                <p>Thiết kế tinh tế, tích hợp sâu vào hệ thống với hiệu suất tối đa.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card glass">
+                    <div class="icon-box"><i class="fa-solid fa-microchip"></i></div>
+                    <h3>Tối ưu năng lượng</h3>
+                    <p>Sử dụng AVPlayerLooper phần cứng, tạm dừng tự động khi chạy Fullscreen hoặc dùng pin.</p>
+                </div>
+                
+                <div class="feature-card glass">
+                    <div class="icon-box"><i class="fa-solid fa-layer-group"></i></div>
+                    <h3>Hiển thị dưới Desktop</h3>
+                    <p>Nằm gọn phía sau các biểu tượng (Desktop Icons) của bạn, không ảnh hưởng thao tác chuột.</p>
+                </div>
+                
+                <div class="feature-card glass">
+                    <div class="icon-box"><i class="fa-solid fa-desktop"></i></div>
+                    <h3>Đa màn hình thông minh</h3>
+                    <p>Hỗ trợ thiết lập hình nền riêng biệt cho từng màn hình hoặc đồng bộ trên tất cả màn hình ngoài.</p>
+                </div>
+                
+                <div class="feature-card glass">
+                    <div class="icon-box"><i class="fa-solid fa-video"></i></div>
+                    <h3>Nhập video tuỳ chọn</h3>
+                    <p>Kéo thả trực tiếp file .mp4, .mov của bạn. Hoạt động như một thư viện video không giới hạn.</p>
+                </div>
+                
+                <div class="feature-card glass">
+                    <div class="icon-box"><i class="fa-brands fa-apple"></i></div>
+                    <h3>Tiện ích Menu Bar</h3>
+                    <p>Ẩn hoàn toàn khỏi Dock, nằm im lặng trên Menu Bar, chuyển đổi hình nền chỉ bằng 2 cú click chuột.</p>
+                </div>
+                
+                <div class="feature-card glass">
+                    <div class="icon-box"><i class="fa-solid fa-language"></i></div>
+                    <h3>Hỗ trợ Tiếng Việt</h3>
+                    <p>Giao diện được việt hóa 100%, dễ hiểu, thân thiện dành cho cộng đồng người dùng Việt Nam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download" id="download">
+        <div class="container download-container glass">
+            <div class="download-content">
+                <img src="assets/app_icon.png" alt="Icon" class="large-icon">
+                <h2>Sẵn sàng để làm mới Mac của bạn?</h2>
+                <p>Tải xuống bộ cài đặt DMG, chỉ cần kéo và thả vào thư mục Applications là xong.</p>
+                
+                <div class="download-buttons">
+                    <a href="assets/DynamicWallpaper_v1.0.dmg" download class="btn btn-lg btn-primary">
+                        <i class="fa-solid fa-download"></i> Tải bản DMG (macOS)
+                    </a>
+                </div>
+                <div class="download-note">
+                    *Tương thích với macOS 13.0 Ventura trở lên. Dung lượng ~12MB.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <img src="assets/app_icon.png" alt="Icon" class="footer-icon">
+                <span class="footer-title">DynamicWallpaper</span>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/dhuy05/DynamicWallpaperMac" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="#features">Tính năng</a>
+                <a href="#">Báo lỗi</a>
+            </div>
+            <div class="footer-copy">
+                <span class="signature">Crafted by Dhuy</span>
+                <br>
+                &copy; 2026 DynamicWallpaper. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

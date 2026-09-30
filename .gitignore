@@ -34,3 +34,6 @@ Export/
 
 # User specific
 .env
+
+# Allow website assets
+!docs/assets/*.dmg
