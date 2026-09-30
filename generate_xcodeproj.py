@@ -282,6 +282,7 @@ pbxproj_content = f'''// !$*UTF8*$!
 \t\t\t\tCURRENT_PROJECT_VERSION = 1;
 \t\t\t\tGENERATE_INFOPLIST_FILE = NO;
 \t\t\t\tINFOPLIST_FILE = Info.plist;
+\t\t\t\tCODE_SIGN_ENTITLEMENTS = DynamicWallpaper.entitlements;
 \t\t\t\tLD_RUNPATH_SEARCH_PATHS = (
 \t\t\t\t\t"$(inherited)",
 \t\t\t\t\t"@executable_path/../Frameworks",
@@ -304,6 +305,7 @@ pbxproj_content = f'''// !$*UTF8*$!
 \t\t\t\tCURRENT_PROJECT_VERSION = 1;
 \t\t\t\tGENERATE_INFOPLIST_FILE = NO;
 \t\t\t\tINFOPLIST_FILE = Info.plist;
+\t\t\t\tCODE_SIGN_ENTITLEMENTS = DynamicWallpaper.entitlements;
 \t\t\t\tLD_RUNPATH_SEARCH_PATHS = (
 \t\t\t\t\t"$(inherited)",
 \t\t\t\t\t"@executable_path/../Frameworks",
