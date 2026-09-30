@@ -1,4 +1,4 @@
-# Dynamic Wallpaper for macOS (Xcode Project)
+# Dynamic Wallpaper for macOS
 
 Ứng dụng cài đặt hình nền động (Live / Dynamic Wallpaper) chuyên nghiệp dành cho macOS, được viết hoàn toàn bằng **Swift & SwiftUI** và thiết kế tối ưu cho **Xcode**.
 
