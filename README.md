@@ -9,7 +9,7 @@
 ### Cách 1: Mở trực tiếp bằng Xcode (Khuyên dùng)
 1. Mở Terminal hoặc Finder, tìm đến thư mục:
    ```bash
-   cd /Users/tranduchuy/.gemini/antigravity-ide/scratch/DynamicWallpaperMac
+   cd DynamicWallpaperMac
    ```
 2. Mở file đồ án Xcode bằng lệnh:
    ```bash
@@ -25,14 +25,14 @@
 ### Cách 2: Chạy trực tiếp ứng dụng đã được Build sẵn
 Ứng dụng đã được biên dịch sẵn thành file `.app` độc lập. Bạn chỉ cần gõ lệnh sau để mở ngay:
 ```bash
-open /Users/tranduchuy/.gemini/antigravity-ide/scratch/DynamicWallpaperMac/build/DynamicWallpaper.app
+open build/DynamicWallpaper.app
 ```
 
 ---
 
 ### Cách 3: Chạy nhanh qua Swift Package Manager
 ```bash
-cd /Users/tranduchuy/.gemini/antigravity-ide/scratch/DynamicWallpaperMac
+cd DynamicWallpaperMac
 swift run
 ```
 
